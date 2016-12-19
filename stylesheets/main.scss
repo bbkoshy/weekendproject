@@ -1,0 +1,192 @@
+@import "partials/variables";
+
+header{
+  background: url(../images/vreelandsit.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 650px;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+
+
+  .container{
+    display: block;
+  }
+   .logo{
+    height: 70px;
+    float: left;
+  }
+  .main-nav{
+    float: right;
+  }
+  .main-nav li{
+    float: left;
+    margin: 8px;
+  }
+  .main-nav li a{
+    color: #305291;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    background-color: white;
+  }
+  ul{
+    list-style: none;
+  }
+  .dropdown{
+    position: relative;
+  }
+
+  .dropdown .drop-nav{
+    position: absolute;
+    display: none;
+  }
+  .main-nav li a{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #134054;
+    border: 2px solid #218597;
+    border-radius: 4px;
+    transition:.25s ease;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .headercontent{
+    clear: both;
+    position: absolute;
+    top: 50% ;
+    left: 40%;
+    text-align: center;
+    color: #001c25;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%)
+  }
+  #primary_nav_wrap
+{
+	margin-top:15px
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#f6f6f6
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+
+}
+
+
+.dianaanthem{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 100px;
+  height: 300px;
+  background-color: #001c25;
+  color: #dedede;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+
+
+
+h2{
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+p{
+  text-align: center;
+  text-transform: uppercase;
+}
+}
+
+.mainbody{
+  padding: 30px;
+  text-align: center;
+  overflow: visible;
+  background-color: #6d7b81;
+
+
+  h2, p {
+  color: #dedede;
+  text-transform: uppercase;
+font-family:  'Roboto', sans-serif }
+
+
+  article {
+    width: 20%;
+    display: inline-block;
+    background-color: inherit;
+    height: 150px;
+    color: #dedede;
+    vertical-align: top;
+    margin: 30px 1%;
+    padding: 1%;
+    padding-top: 30px;
+}
+}
+
+.footer{
+  display: block;
+  background-color: #d9d9d9;
+  font-family: 'Roboto', sans-serif;
+
+
+
+  p{
+    display: inline-block;
+    text-align: center;
+    margin: 33px;
+    margin-left: 270px;
+  }
+}
