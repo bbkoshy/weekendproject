@@ -190,3 +190,69 @@ font-family:  'Roboto', sans-serif }
     margin-left: 270px;
   }
 }
+
+
+  @media (max-width: 767px){
+  .mainbody  article{
+      width: 100%;
+      display: block;
+  }
+
+  footer{
+    width: 100%;
+    display: block;
+
+  }
+  footer .footer {
+      margin: 0 auto;
+      padding: 10px;
+      text-align: center;
+
+
+
+}
+
+}
+
+@media (max-width: 1024px){
+  .mainbody  article{
+      width: 100%;
+      display: block;
+  }
+
+  footer{
+    width: 100%;
+    display: block;
+
+  }
+  footer .footer {
+      margin: 0 auto;
+      padding: 10px;
+      text-align: center;
+
+
+
+  }
+}
+
+@media (max-width: 1600px){
+  .mainbody  article{
+      width: 100%;
+      display: block;
+  }
+
+  footer{
+    width: 100%;
+    display: block;
+
+  }
+  footer .footer {
+      margin: 0 auto;
+      padding: 10px;
+      text-align: center;
+
+
+
+}
+
+}
